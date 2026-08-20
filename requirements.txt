@@ -1,9 +1,7 @@
 streamlit
+python-docx
+sentence-transformers
+faiss-cpu
 langchain
 langchain-community
-faiss-cpu
-sentence-transformers
-python-docx
-openai
-tiktoken
 numpy
