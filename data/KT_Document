@@ -1,0 +1,83 @@
+Project: Employee Management System (EMS)
+Prepared By: A. Rakesh
+Version: 1.0
+1. Project Introduction
+EMS is a web-based application to manage employee records, attendance, departments and salaries.
+2. KT Objective
+Transfer complete functional and technical knowledge for maintenance.
+3. Business Problem
+Manual employee management causes duplication and inconsistency.
+4. Project Scope
+Covers registration, attendance, departments, reports and admin controls.
+5. Target Users
+Administrator, HR, Manager, Employee and Support Team.
+6. Technology Stack
+HTML, CSS, JavaScript, Spring Boot, MySQL, Tomcat and Git.
+7. System Architecture
+Three-tier architecture: Presentation, Business and Data layer.
+8. Application Workflow
+Login → Authentication → Dashboard → Database → Response.
+9. Login Module
+Secure authentication with encrypted passwords and session management.
+10. Dashboard Module
+Displays employee count, attendance and department statistics.
+11. Employee Registration
+Stores ID, name, email, phone, salary and department.
+12. Employee Search
+Search by ID, name, email or department.
+13. Employee Update
+Modify employee details while preserving data integrity.
+14. Employee Deletion
+Only administrators can permanently remove records.
+15. Department Module
+Manages HR, IT, Finance, Marketing and Operations.
+16. Attendance Module
+Records check-in, check-out and attendance status.
+17. Leave Management
+Employees apply; managers approve or reject requests.
+18. Salary Module
+Calculates gross pay, deductions and net salary.
+19. Report Generation
+Generate employee, attendance and salary reports.
+20. Database Tables
+Users, Employees, Departments, Attendance, Leave and Salary.
+21. ER Relationships
+One department has many employees; one employee has many attendance records.
+22. API Design
+REST endpoints for login and CRUD operations.
+23. Folder Structure
+Controller, Service, Repository, Model and Config layers.
+24. Coding Standards
+MVC pattern, camelCase and reusable services.
+25. Authentication Flow
+Credential validation followed by secure session creation.
+26. Authorization
+Role-based access for Admin, HR, Manager and Employee.
+27. Security Features
+SQL injection prevention, hashing and input validation.
+28. Exception Handling
+Handles login, duplicate records and database errors.
+29. Logging
+Stores login history, API requests and system errors.
+30. Deployment Requirements
+Java 17, Maven, MySQL and Tomcat.
+31. Deployment Steps
+Clone → Configure → Build → Deploy → Verify.
+32. Configuration
+Datasource URL, username, password and server port.
+33. Backup Strategy
+Daily incremental and weekly full database backups.
+34. Performance Optimization
+Indexing, caching, pagination and optimized queries.
+35. Testing Strategy
+Unit, Integration, System, Regression and UAT.
+36. Known Issues
+Biometric attendance and mobile optimization pending.
+37. Troubleshooting
+Restart services, verify DB and rebuild indexes when needed.
+38. Future Enhancements
+Cloud deployment, AI analytics and mobile app support.
+39. KT Handover Checklist
+Source code, database, APIs, tests and documentation shared.
+40. Conclusion
+The KT enables any new developer to understand, deploy and maintain EMS efficiently.
